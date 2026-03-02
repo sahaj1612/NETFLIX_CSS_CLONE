@@ -1,0 +1,111 @@
+body{
+    background: url("netflix.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: -1;
+}
+
+#logo{
+    color: red;
+    padding-left: 20px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+}
+
+#language{
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+#sign_in{
+    background-color: red;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    font-size: small;
+    margin-left: 10px;
+}
+
+#both{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+}
+
+#text2{
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5px;
+}
+
+#text3{
+    font-size: small;
+    margin-left: 470px;
+}
+
+#text4{
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 370px;
+}
+
+#email{
+    height: 40px;
+    margin-left: 370px;
+    width: 260px;
+    border: 1px solid white;
+}
+
+#start{
+    background-color: red;
+    color: white;
+    height: 45px;
+    width: 140px;
+    border-radius: 3%;
+    border: none;
+}
+
+#footer{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.trending{
+    margin-left: 40px;
+}
+
+.card{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 275px;
+    width: 190px;
+    border-radius: 5%;
+}
